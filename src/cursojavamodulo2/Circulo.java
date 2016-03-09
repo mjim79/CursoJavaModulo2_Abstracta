@@ -2,7 +2,7 @@ package cursojavamodulo2;
 
 public class Circulo extends Figura {
 	// atributos de la clase
-	double radio;
+	private double radio;
 	
 	// constructor
 	public Circulo(Punto punto, double radio) {
@@ -10,9 +10,9 @@ public class Circulo extends Figura {
 		this.radio=radio;
 	}
 	
-	// implementación de métodos del interfaz
+	// implementación de métodos de la clase abstracta
 	@Override
 	public double area() {
-		return 3.14 * radio * radio;
+		return PI * radio * radio;
 	}
 }

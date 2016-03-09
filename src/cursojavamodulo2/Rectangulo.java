@@ -2,8 +2,8 @@ package cursojavamodulo2;
 
 public class Rectangulo extends Figura {
 
-	double ancho;
-	double alto;
+	private double ancho;
+	private double alto;
 	
 	public Rectangulo(Punto p, double ancho, double alto) {
 		this.p = p;

@@ -1,7 +1,8 @@
 package cursojavamodulo2;
 
 public abstract class Figura {
-	Punto p;
+	public final static double PI = Math.PI;
+	protected Punto p;
 	
 	public abstract double area();
 	public void mover(double dx, double dy) {
